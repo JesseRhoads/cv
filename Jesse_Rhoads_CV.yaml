@@ -1,0 +1,191 @@
+cv:
+  name: Jesse Rhoads
+  location: Windermere, FL
+  email: JesseRhoads@gmail.com
+  phone: +1-352-258-3716
+  website: https://www.jesserhoads.net
+  social_networks:
+    - network: LinkedIn
+      username: jesserhoads
+
+  sections:
+    summary:
+      - Site Reliability and Platform Engineering Leader specializing in Proof-of-Concept validation, Observability, and Automation.
+      - Proven ability to coordinate efforts across distributed teams. 
+      - Tenacious troubleshooter with a distinct attention to detail. 
+      - Committed to continuous learning, mentoring, and knowledge-sharing, as they are key elements of success.
+      - Extensive experience in developer enablement at organizations ranging from startup to enterprise.
+
+    skills:
+      - label: Operations & SRE
+        details: Chaos Engineering, Capacity Planning, Server Provisioning, SLO Management, Incident Response
+      - label: Infrastructure as Code
+        details: Terraform, Atlantis, Ansible, Salt, Chef
+      - label: CI/CD
+        details: CircleCI, Buildkite, Argo CD, Jenkins
+      - label: Observability
+        details: Datadog, Prometheus, Grafana, VictoriaMetrics, OpenTelemetry, Elasticsearch, Nobl9
+      - label: Cloud Technologies
+        details: Linux (Ubuntu and various distributions), AWS, Kubernetes
+      - label: Programming and Scripting Languages
+        details: Python, Bash, PHP, Go, Ruby
+
+    experience:
+      - company: PagerDuty
+        position: Site Reliability Engineer IV
+        start_date: 2022-10
+        end_date: present
+        location: Remote
+        highlights:
+          - Selected for a cross-functional team to build a dedicated FedRAMP Moderate environment.
+          - Administered global developer infrastructure including GitHub, IaC (Terraform + Atlantis), and internal developer portals such as Backstage.
+          - Authored CircleCI Orbs and Buildkite plugins to reduce engineering toil by abstracting common CI patterns into reusable workflows.
+          - Migrated 2000+ code repositories to use artifact storage on Cloudsmith, standardizing on one solution for all teams.
+          - Led migration of CI pipeline credentials from HashiCorp Vault to AWS Secrets Manager (ASM). This facilitated the decommissioning of Vault and reduced operational overhead.
+
+      - company: Datto
+        position: Staff Site Reliability Engineer II
+        start_date: 2020-04
+        end_date: 2022-10
+        location: Remote
+        highlights:
+          - "Established foundational SRE practices as the business unit’s first SRE hire. Partnered with DevOps to integrate operational resiliency and automation into the SDLC." 
+          - Designed an onboarding training class on SRE core concepts for all new engineering hires to establish a common knowledge baseline.
+          - Built a high-availability (HA) solution for Sharded MySQL using Orchestrator, HAProxy, Consul Template, Python, and Percona toolkits.
+          - Maintained and extended system configuration management, utilizing SaltStack and Ansible.
+          - Developed Telegraf scripts for custom metric collection and designed centralized Grafana dashboards.
+
+      - company: MaxMind
+        position: Site Reliability Engineer
+        start_date: 2019-03
+        end_date: 2020-04
+        location: Remote
+        highlights:
+          - Planned, architected, tested, and automated systems for a high-traffic SaaS platform using Ansible and Terraform across a hybrid GCP and bare-metal fleet.
+          - Designed and orchestrated custom load testing engines using Locust and executed targeted chaos engineering exercises.
+          - Developed critical tooling and internal utilities using Python and Golang.
+          - Evaluated and deployed a Wazuh IDS to significantly augment security policy enforcement capabilities.
+
+      - company: Sonobi
+        position: Principal DevOps Engineer
+        start_date: 2016-12
+        end_date: 2019-03
+        location: Winter Park, FL
+        highlights:
+          - Managed end-to-end software deployment, automated regression testing, production releases, and global platform updates.
+          - Orchestrated physical bare-metal and cloud systems (AWS) supporting internal Python and Go applications.
+          - Automated containerized build and deployment pipelines using Docker Compose, Jenkins, and Aptly.
+          - Built a Ceph storage cluster on commodity hardware to host backends for libvirt/KVM hypervisors.
+          - Fostered growth of junior engineers by providing collaborative technical guidance and structured pair programming.
+
+      - company: Virtustream (A Dell Technologies Company)
+        position: Principal Site Reliability Engineer, QE Team
+        start_date: 2014-03
+        end_date: 2016-12
+        location: Remote
+        highlights:
+          - Architected large-scale prototypes and high-fidelity validation environments inside cloud technology incubation labs.
+          - Conducted massive load and functional QA testing, contributing heavily to configuration management pipelines via SaltStack and Python.
+          - Supported expansion of a 2+ Exabyte EMC ATMOS Storage Network, distributed globally across tens of thousands of physical nodes.
+          - Wrote custom automation scripts to query APIs and broadcast critical test telemetry into Slack, increasing bug resolution velocity.
+          - Developed a Python API interface in collaboration with IXIA to automate network impairment hardware orchestration.
+
+      - company: Korrelate (Now a J.D. Power Company)
+        position: Senior Infrastructure Engineer
+        start_date: 2012-03
+        end_date: 2014-03
+        location: Orlando, FL
+        highlights:
+          - Provisioned, installed, configured, and maintained all system layers across hosted dedicated hardware and AWS instances.
+          - Developed an automated deployment pipeline consisting of Chef and Capistrano to ensure configuration parity across environments.
+          - Built, scaled, and safely migrated several distributed production instances of Redis, MongoDB, and Greenplum databases.
+          - Centralized monitoring in ZenOSS, writing custom metric trackers to alert on system anomalies.
+
+      - company: HD Supply
+        position: Senior Systems Engineer (UNIX/Linux)
+        start_date: 2011-10
+        end_date: 2012-03
+        location: Orlando, FL
+        highlights:
+          - Performed deep hands-on infrastructure maintenance, performance optimization, and vendor escalation management for an enterprise Unix fleet.
+          - Authored system documentation and automated repetitive sysadmin runbooks using shell scripts to boost operational throughput.
+
+      - company: Highwinds Network Group
+        position: Senior Implementation Engineer (QA & Infrastructure)
+        start_date: 2008-02
+        end_date: 2011-10
+        location: Winter Park, FL
+        highlights:
+          - Member of the founding engineering team that designed, built, validated, and operated the Highwinds CDN from its inception.
+          - Managed system and network environments for development and QA teams, handling subnetting, VLAN allocation, and Brocade device configuration.
+          - Designed, racked, and maintained bare-metal server farms. Templated configuration using Cobbler and Puppet.
+          - Acted as a core technical bridge between Dev and Ops, verifying release stability and validating bugs using siege and HTTP verification tools.
+          - Scaled capacity and prevented capital expenditure by virtualizing legacy hardware resources, building server labs running over 200 virtual machines using XenServer.
+
+    # additional_experience:
+    #   - company: Intermed PACS, Inc.
+    #     position: Computer Service Engineer (RedHat, Solaris, Storage Arrays, VOIP Networks, Imaging Modalities)
+    #     start_date: 2004-05
+    #     end_date: 2008-02
+    #   - company: WebMD Practice Services, Inc.
+    #     position: Purchasing Manager (Technical Vendor Cultivation & Product Sourcing)
+    #     start_date: 2003-07
+    #     end_date: 2004-04
+    #   - company: Gleim Publications, Inc.
+    #     position: Lead Network Assistant (LAMP Developer, Server Admin, Data Backups)
+    #     start_date: 2000-12
+    #     end_date: 2003-07
+    #   - company: GDN Networks
+    #     position: ISP Service Technician (Linux Systems Admin, Dial-up Modem Pools, Tier-3 Support)
+    #     start_date: 1998-06
+    #     end_date: 1999-07
+
+    patents:
+      - name: "*Fleetwide Adaptive Rate Limiting Gatekeeper Apparatuses, Processes and Systems* (US Patent No. 12,141,033)"
+        date: 2024-11-12
+
+    certifications_and_achievements:
+      - name: SadServers Master Level Linux and Devops Troubleshooting Skills
+        date: 2025-09
+      - name: FEMA IS-00700.b, Introduction to the National Incident Management System (NIMS)
+        date: 2024-11
+      - name: FEMA IS-00100.c, Introduction to Incident Command System (ICS)
+        date: 2024-10
+      - name: SaltStack Certified Engineer v2 (SSCE2)
+        id: "#345 ID DA361D9B"
+        date: 2016-04
+
+    education:
+      - institution: University of Florida - Warrington College of Business
+        degree: B.S.
+        area: Decision and Information Sciences
+        date: 2002-05
+      
+design:
+  templates:
+    experience_entry:
+      main_column: |
+        **COMPANY**, POSITION, LOCATION (DATE)
+        HIGHLIGHTS
+      date_and_location_column: ""
+  theme: myclassic
+  page:
+    show_top_note: false
+    show_footer: false
+    top_margin: 0.25in
+    bottom_margin: 0.25in
+    left_margin: 0.25in
+    right_margin: 0.25in
+  typography:
+    font_family: Roboto
+    font_size:
+      body: 10pt
+      connections: 10pt
+  entries:
+    date_and_location_width: 3.3cm
+    short_second_row: true
+  sections:
+    show_time_spans_in:
+      - none
+settings:
+  pdf_title: "Resume of Jesse Rhoads"

@@ -78,8 +78,8 @@ cv:
           - Built a Ceph storage cluster on commodity hardware to host backends for libvirt/KVM hypervisors.
           - Fostered growth of junior engineers by providing collaborative technical guidance and structured pair programming.
 
-      - company: Virtustream (A Dell Technologies Company)
-        position: Principal Site Reliability Engineer, QE Team
+      - company: Virtustream - A Dell Technologies Company
+        position: Principal Site Reliability Engineer
         start_date: 2014-03
         end_date: 2016-12
         location: Remote
@@ -90,7 +90,7 @@ cv:
           - Wrote custom automation scripts to query APIs and broadcast critical test telemetry into Slack, increasing bug resolution velocity.
           - Developed a Python API interface in collaboration with IXIA to automate network impairment hardware orchestration.
 
-      - company: Korrelate (Now a J.D. Power Company)
+      - company: Korrelate - now a J.D. Power Company
         position: Senior Infrastructure Engineer
         start_date: 2012-03
         end_date: 2014-03
@@ -102,7 +102,7 @@ cv:
           - Centralized monitoring in ZenOSS, writing custom metric trackers to alert on system anomalies.
 
       - company: HD Supply
-        position: Senior Systems Engineer (UNIX/Linux)
+        position: Senior Systems Engineer UNIX/Linux
         start_date: 2011-10
         end_date: 2012-03
         location: Orlando, FL
@@ -111,7 +111,7 @@ cv:
           - Authored system documentation and automated repetitive sysadmin runbooks using shell scripts to boost operational throughput.
 
       - company: Highwinds Network Group
-        position: Senior Implementation Engineer (QA & Infrastructure)
+        position: Senior Implementation Engineer - QA / Infrastructure
         start_date: 2008-02
         end_date: 2011-10
         location: Winter Park, FL

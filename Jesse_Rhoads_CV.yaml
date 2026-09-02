@@ -40,7 +40,7 @@ cv:
           - Architected and deployed a dedicated FedRAMP Moderate / Class-C environment alongside a cross-functional team, while ensuring STIG compliance and audit readiness.
           - Executed a comprehensive Proof of Concept (POC) evaluating enterprise observability platforms via OpenTelemetry (OTel), driving the strategic decision to architect an in-house LGTM (Loki, Grafana, Tempo, Mimir) monitoring stack.
           - Empowered global engineering teams by scaling and administering core developer infrastructure, including GitHub, Backstage, Terraform/Atlantis IaC, and CI/CD pipelines.
-          - Helmed consecutive EKS major-version upgrades across cluster fleets, eliminating extended end-of-life support overhead and maintaining upstream alignment.
+          - Helmed consecutive EKS major-version upgrades across cluster fleets, eliminating extended end-of-life support overhead.
           - Engineered hardened base AMIs and container images to standardize FIPS compliance, software installation, and baseline security models across all cluster workloads.
           - Partnered with stakeholders to design and maintain 'Golden Path' service templates, enabling turn-key, self-service application provisioning via an Internal Developer Portal (IDP).
           - Authored CircleCI Orbs, Buildkite plugins, and Terraform Modules to reduce engineering toil by abstracting common patterns into reusable workflows, such as enabling templated SLO creation and alerting.

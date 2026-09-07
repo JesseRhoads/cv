@@ -26,7 +26,7 @@ cv:
       - label: Observability
         details: Datadog, Prometheus, Grafana (LGTM), VictoriaMetrics, OpenTelemetry, Elasticsearch, Nobl9
       - label: Cloud Technologies
-        details: Linux (Ubuntu and various distributions), AWS, Kubernetes
+        details: Linux (Ubuntu and various distributions), AWS, Kubernetes, Claude Code
       - label: Programming and Scripting Languages
         details: Python, Bash, PHP, Go, Ruby
 
@@ -37,7 +37,7 @@ cv:
         end_date: 2026-08
         location: Remote
         highlights:
-          - Architected and deployed a dedicated FedRAMP Moderate / Class-C environment alongside a cross-functional team, while ensuring STIG compliance and audit readiness.
+          - Architected and deployed a dedicated FedRAMP Moderate / Class-C environment alongside a cross-functional team, while ensuring STIG compliance and audit readiness using an in-house AI framework.
           - Executed a comprehensive Proof of Concept (POC) evaluating enterprise observability platforms via OpenTelemetry (OTel), driving the strategic decision to architect an in-house LGTM (Loki, Grafana, Tempo, Mimir) monitoring stack.
           - Empowered global engineering teams by scaling and administering core developer infrastructure, including GitHub, Backstage, Terraform/Atlantis IaC, and CI/CD pipelines.
           - Helmed consecutive EKS major-version upgrades across cluster fleets, eliminating extended end-of-life support overhead.

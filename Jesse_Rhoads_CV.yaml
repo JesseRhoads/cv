@@ -31,6 +31,10 @@ cv:
         details: Python, Bash, PHP, Go, Ruby
 
     experience:
+      - company: Huntress
+        position: Staff Platform Engineer
+        start_date: 2026-11
+        location: Remote
       - company: PagerDuty
         position: Site Reliability Engineer IV
         start_date: 2022-10
@@ -124,7 +128,7 @@ cv:
           - Managed system and network environments for development and QA teams, handling subnetting, VLAN allocation, and Brocade device configuration.
           - Designed, racked, and maintained bare-metal server farms. Templated configuration using Cobbler and Puppet.
           - Acted as a core technical bridge between Dev and Ops, verifying release stability and validating bugs using siege and HTTP verification tools.
-          - Scaled capacity and prevented capital expenditure by virtualizing legacy hardware resources, building server labs running over 200 virtual machines using XenServer.
+#          - Scaled capacity and prevented capital expenditure by virtualizing legacy hardware resources, building server labs running over 200 virtual machines using XenServer.
 
     # additional_experience:
     #   - company: Intermed PACS, Inc.
@@ -155,9 +159,9 @@ cv:
         date: 2024-11
       - name: FEMA IS-00100.c, Introduction to Incident Command System (ICS)
         date: 2024-10
-      - name: SaltStack Certified Engineer v2 (SSCE2)
-        id: "#345 ID DA361D9B"
-        date: 2016-04
+#      - name: SaltStack Certified Engineer v2 (SSCE2)
+#        id: "#345 ID DA361D9B"
+#        date: 2016-04
 
     education:
       - institution: University of Florida - Warrington College of Business
